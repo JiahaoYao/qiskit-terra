@@ -104,7 +104,7 @@ class Pauli(BasePauli):
 
     .. math::
 
-        P &= (-i)^{q + z\cdot x} Z^z \cdot X^x.
+        P = (-i)^{q + z\cdot x} Z^z \cdot X^x.
 
     The :math:`k`th qubit corresponds to the :math:`k`th entry in the
     :math:`z` and :math:`x` arrays
@@ -135,7 +135,7 @@ class Pauli(BasePauli):
 
     For example
 
-    .. code:
+    .. code-block:: python
 
         p = Pauli('-iXYZ')
 
